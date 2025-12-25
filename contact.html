@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Photography Studio</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ================= NAVBAR ================= -->
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top custom-nav">
+    <div class="container">
+        <a class="navbar-brand fw-bold" href="index.html">K W S</a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navMenu">
+            <ul class="navbar-nav ms-auto align-items-center">
+                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                <li class="nav-item">
+                    <a class="btn btn-warning ms-3" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- ================= PAGE HEADER ================= -->
+<section class="page-header text-center text-white">
+    <div class="container">
+        <h1>Contact Us</h1>
+        <p>Let’s capture your moments together</p>
+    </div>
+</section>
+
+<!-- ================= CONTACT SECTION ================= -->
+<section class="contact-section fade-section">
+    <div class="container">
+        <div class="row align-items-center">
+
+            <!-- Contact Info -->
+            <div class="col-md-5 text-white mb-5 mb-md-0">
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="section-text">
+                    For bookings, collaborations, or any photography-related queries,
+                    reach out to us directly.
+                </p>
+
+                <p><strong>📞 Phone:</strong> +91-9701880187</p>
+                <p><strong>📍 Location:</strong> Bhubaneswar, Odisha</p>
+
+                <a href="tel:+919701880187" class="btn btn-outline-light mt-3">
+                    Call Now
+                </a>
+            </div>
+
+            <!-- WhatsApp Form -->
+            <div class="col-md-7">
+                <div class="contact-box">
+                    <h3 class="text-white mb-4">Send Message on WhatsApp</h3>
+
+                    <input type="text" id="name" class="form-control mb-3" placeholder="Your Name">
+                    <input type="text" id="service" class="form-control mb-3" placeholder="Service Required">
+                    <textarea id="message" class="form-control mb-3" rows="4"
+                        placeholder="Your Message"></textarea>
+
+                    <button class="btn btn-warning w-100" onclick="sendWhatsApp()">
+                        Send via WhatsApp
+                    </button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- ================= FOOTER ================= -->
+<footer class="footer">
+    <div class="container text-center text-white">
+        <p class="mb-3">Follow Us</p>
+
+        <div class="social-icons mb-4">
+            <a href="https://www.instagram.com/kalyan_wedding_studios?igsh=MXQ0OHJoY245MTJlbg==" target="_blank">Instagram</a>
+            <a href="https://wa.me/919701880187" target="_blank">WhatsApp</a>
+            <a href="https://youtube.com/@kalyanweddingstudios?si=XRFoMxKYinX35mpA" target="_blank">YouTube</a>
+            <a href="https://www.facebook.com/share/17o9jYYo4j/?mibextid=wwXIfr" target="_blank">Facebook</a>
+        </div>
+
+        <p>© 2025 Photography Studio</p>
+    </div>
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/main.js"></script>
+
+</body>
+</html>
